@@ -30,7 +30,7 @@ const Navbar = () => {
               
           </nav>
           <nav>
-              <Link href="/" target={"_blank"}>T</Link>
+              <Link href="/" target={"_blank"}>A</Link>
               <Link href="/" target={"_blank"}>T</Link>
               <Link href="/" target={"_blank"}>T</Link>
               <Link href="/" target={"_blank"}>T</Link>
