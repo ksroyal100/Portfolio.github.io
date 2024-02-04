@@ -1,15 +1,17 @@
 import Link from 'next/link'
 import React from 'react'
 import Logo from './Logo'
+import { useRouter } from 'next/router'
+import  { GithubIcon, LinkedInIcon, TwitterIcon } from './icons'
 
 const CustomLink = ({ href, title, className = "" }) => {
+  const router = useRouter();
   return (
     <Link href={href} className={`${className} relative group`}>
       {title}
 
-      <span className='h-[2px] inline-block w-full bg-black absolute left-0 -bottom-0.5
-      group-hover:w-full translate-[width] ease duration-300
-      '>&nbsp;</span>
+      <span className={`h-[2px] inline-block w-0 bg-black absolute left-0 -bottom-0.5
+      group-hover:w-full translate-[width] ease duration-300 ${router.asPath === href ? 'w-full' : 'w-0'}`}>&nbsp;</span>
     </Link>
   )
 }
@@ -28,14 +30,18 @@ const Navbar = () => {
             <CustomLink href="/projects" title="Projects"className='mx-4 font-bold'/>
             <CustomLink href="/blogs" title="Blogs"className='mx-4 font-bold'/>
               
-          </nav>
-          <nav>
-              <Link href="/" target={"_blank"}>A</Link>
-              <Link href="/" target={"_blank"}>T</Link>
-              <Link href="/" target={"_blank"}>T</Link>
-              <Link href="/" target={"_blank"}>T</Link>
-              <Link href="/" target={"_blank"}>T</Link>
-              <Link href="/" target={"_blank"}>T</Link>
+      </nav>
+      
+          <nav className='flex items-center justify-center flex-wrap space-x-1  '>
+        <Link href="/" target={"_blank"}>
+          <TwitterIcon />
+              </Link>
+        <Link href="/" target={"_blank"}>
+          <GithubIcon />
+              </Link>
+        <Link href="/" target={"_blank"}>
+          <LinkedInIcon />
+              </Link>
 
           </nav>
     </header>
