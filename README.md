@@ -1,2 +1,2 @@
 // my link
-https://github.com/ksroyal100/Portfolio.github.io.git
+https://ksroyal100.github.io/Portfolio.github.io/
