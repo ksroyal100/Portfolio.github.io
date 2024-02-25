@@ -1,10 +1,10 @@
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-// import profilePic from '../../public/images/profile/developer-pic-1.png'
 import profilePic from '../../public/images/profile/profile.png'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
+import { LinkArrow } from '@/components/icons'
 
 export default function Home() {
   return (
@@ -25,12 +25,15 @@ export default function Home() {
               As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
 Explore my latest projects and articles, showcasing my expertise in React.js and web development.
               </p>
-              <div>
+              <div className='flex items-center self-start mt-2'>
+                <Link href='/RESUMEKS.pdf' target='_blank' className='flex items-center bg-black text-white p-2.5 px-6 mr-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-solid border-transparent hover: border-black'>Resume <LinkArrow className='w-6 ml-1'/></Link>
+
+                
+                <Link href='mailto:guptakishan492@gmail.com' target='_blank' className='ml-4 text-lg font-medium capitalize text-black underline '>Contact</Link>
               </div>
             </div>
           </div>
         </Layout>
-        Home
    </main>
     </>
   )
