@@ -26,7 +26,6 @@ export default function Home() {
 Explore my latest projects and articles, showcasing my expertise in React.js and web development.
               </p>
               <div>
-                <Link href={}
               </div>
             </div>
           </div>
