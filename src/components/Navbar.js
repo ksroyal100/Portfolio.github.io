@@ -2,7 +2,8 @@ import Link from 'next/link'
 import React from 'react'
 import Logo from './Logo'
 import { useRouter } from 'next/router'
-import  { GithubIcon, LinkedInIcon, TwitterIcon } from './icons'
+import { GithubIcon, LinkedInIcon, TwitterIcon } from './icons'
+import {motion} from "framer-motion"
 
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
@@ -32,16 +33,31 @@ const Navbar = () => {
               
       </nav>
       
-          <nav className='flex items-center justify-center flex-wrap space-x-1  '>
-        <Link href="/" target={"_blank"}>
+          <nav className='flex items-center justify-center flex-wrap'>
+        <motion.a href="https://twitter.com" target={"_blank"}
+          whileHover={{ y: -2 }}
+          whileTap={{scale: 0.9}}
+          className='w-6 mr-3'
+        >
+          
           <TwitterIcon />
-              </Link>
-        <Link href="/" target={"_blank"}>
+              </motion.a>
+        <motion.a href="https://twitter.com" target={"_blank"}
+          whileHover={{ y: -2 }}
+          whileTap={{scale: 0.9}}
+          className='w-6 mr-3'
+          
+        >
           <GithubIcon />
-              </Link>
-        <Link href="/" target={"_blank"}>
+              </motion.a>
+        <motion.a href="https://twitter.com" target={"_blank"}
+          whileHover={{ y: -2 }}
+          whileTap={{scale: 0.9}}
+          className='w-6 mr-3'
+          
+        >
           <LinkedInIcon />
-              </Link>
+              </motion.a>
 
           </nav>
     </header>
