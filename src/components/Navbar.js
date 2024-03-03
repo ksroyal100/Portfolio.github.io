@@ -26,10 +26,11 @@ const Navbar = () => {
       </div>
 
           <nav>
-              <CustomLink href="/" title="Home" className='mx-4 font-bold'/>
-            <CustomLink href="/about" title="Projects" className='mx-4 font-bold'/>
-            <CustomLink href="/projects" title="Blogs"className='mx-4 font-bold'/>
-            <CustomLink href="/blogs" title="Contact"className='mx-4 font-bold'/>
+        <CustomLink href="/" title="Home" className='mx-4 font-bold' />
+        <CustomLink href="/about" title="About" className='mx-4 font-bold'/>
+            <CustomLink href="/projects" title="Projects" className='mx-4 font-bold'/>
+            <CustomLink href="/blogs" title="Blogs" className='mx-4 font-bold'/>
+            <CustomLink href="/contact" title="Contact" className='mx-4 font-bold'/>
               
       </nav>
       
