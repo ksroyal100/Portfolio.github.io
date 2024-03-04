@@ -5,5 +5,4 @@ const Skill = () => {
     <div>Skill</div>
   )
 }
-
 export default Skill

@@ -5,6 +5,7 @@ import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
 import profilePic from '../../public/images/profile/profile.png'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
+import Skill from '@/components/Skill'
 
 const AnimatedNumbers = ({value}) => {
     const ref = useRef(null);
@@ -42,11 +43,10 @@ const about = () => {
                   <div className='grid w-full grid-cols-8 gap-16'>
                       <div className='col-span-3 flex flex-col items-start justify-start'>
                           <h2 className='mb-4 text-lg font-bold uppercase text-black-300'>Biography</h2>
-
                           <p className='font-medium'> Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
 and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
 new and innovative ways to bring my clients' visions to life. </p>
-<p className='my-4 font-medium'> I believe that design is about more than just making things look pretty – it's about solving problems and 
+<p className='my-4 font-medium'> I believe that design is about more than just making things look pretty it's about solving problems and 
 creating intuitive, enjoyable experiences for users. 
 </p>
 
@@ -77,6 +77,7 @@ every project I work on. I look forward to the opportunity to bring my skills an
                           
                       </div>
                   </div>
+                  <Skill />
           </Layout>
           </main>
          
