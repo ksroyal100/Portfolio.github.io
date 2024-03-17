@@ -25,7 +25,7 @@ export default function Home() {
               <AnimatedText text={`Turning Vision Into Reality With Code And Design.`} className={`!text-5xl !text-left`} />
               <p className='my-4 text-base font-medium '>
               As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+Explore my latest projects and articles, showcasing my expertise in React.js and web apps development.
               </p>
               <div className='flex items-center self-start mt-2'>
                 <Link href='/RESUME.pdf' target='_blank' className='flex items-center bg-black text-white p-2.5 px-6 mr-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-solid border-transparent hover: border-black'>Resume <LinkArrow className='w-6 ml-1'/></Link>
