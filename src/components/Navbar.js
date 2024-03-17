@@ -26,35 +26,27 @@ const Navbar = () => {
       </div>
 
           <nav>
-        <CustomLink href="/" title="Home" className='mx-4 font-bold' />
-        <CustomLink href="/about" title="About" className='mx-4 font-bold'/>
-            <CustomLink href="/projects" title="Projects" className='mx-4 font-bold'/>
-            <CustomLink href="/blogs" title="Blogs" className='mx-4 font-bold'/>
-            <CustomLink href="/contact" title="Contact" className='mx-4 font-bold'/>
+        <CustomLink href="/" title="Home" className='mx-4 font-bold text-xl' />
+        <CustomLink href="/about" title="About" className='mx-4 font-bold text-xl'/>
+            <CustomLink href="/projects" title="Projects" className='mx-4 font-bold text-xl'/>
+            <CustomLink href="/blogs" title="Blogs" className='mx-4 font-bold text-xl'/>
+            {/* <CustomLink href="/contact" title="Contact" className='mx-4 font-bold'/> */}
               
       </nav>
       
           <nav className='flex items-center justify-center flex-wrap'>
-        <motion.a href="https://twitter.com" target={"_blank"}
+        <motion.a href="https://github.com/ksroyal100" target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{scale: 0.9}}
-          className='w-6 mr-3'
+          className='w-8 mr-3'
         >
           
-          <TwitterIcon />
-              </motion.a>
-        <motion.a href="https://twitter.com" target={"_blank"}
-          whileHover={{ y: -2 }}
-          whileTap={{scale: 0.9}}
-          className='w-6 mr-3'
-          
-        >
           <GithubIcon />
               </motion.a>
-        <motion.a href="https://twitter.com" target={"_blank"}
+        <motion.a href="https://www.linkedin.com/in/kishansahu492" target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{scale: 0.9}}
-          className='w-6 mr-3'
+          className='w-8 mr-3'
           
         >
           <LinkedInIcon />
