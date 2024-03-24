@@ -6,7 +6,7 @@ import React, { useEffect, useRef } from 'react'
 import profilePic from '../../public/images/profile/profile.png'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Skill from '@/components/Skill'
-import Experience from '@/components/Experience'
+// import Experience from '@/components/Experience'
 import Education from '@/components/Education'
 
 const AnimatedNumbers = ({value}) => {
@@ -39,7 +39,7 @@ const about = () => {
               <title>Kishan Sahu | About Me</title>
               <meta name='description' content='any descrption' />
           </Head>
-          <main className='flex w-full flex-col items-center justify-center dark:text-light'>
+          <main className='flex w-full flex-col items-center justify-center dark:text-light overflow-hidden'>
           <Layout className='pt-16'>
                   <AnimatedText text='Passion Fuels Purpose!' className="mb-16 text-[3rem]"/>
                   <div className='grid w-full grid-cols-8 gap-16'>
