@@ -4,15 +4,15 @@ import LiIcons from './LiIcons'
 
 const Details = ({ position, company, companyink, time, address, work }) => {
   const ref = useRef(null)
-  return <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
+  return <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]'>
     <LiIcons reference={ ref} />
     <div >
-      <h3 className='capitalize font-bold text-2xl'>{position}&nbsp; <a href={companyink} 
+      <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>{position}&nbsp; <a href={companyink} 
       target='_blank' className='text-blue-600'>@{company}</a></h3>
-      <span className='capitalize font-medium text-dark/75'>
+      <span className='capitalize font-medium text-dark/75 xs:text-sm'>
         {time} | {address}
       </span>
-      <p className='font-medium w-full'>
+      <p className='font-medium w-full md:text-sm'>
         {work}
       </p>
     </div>
@@ -27,8 +27,8 @@ const Experience = () => {
   })
   return (
     <div className='my-64'>
-      <h2 className='font-bold text-8xl mb-32 w-full text-center'>Experience</h2>
-      <div ref={ref} className='w-[75%] mx-auto relative'>
+      <h2 className='font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-10'>Experience</h2>
+      <div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
         
         <motion.div
         style={{scaleY: scrollYProgress}}
