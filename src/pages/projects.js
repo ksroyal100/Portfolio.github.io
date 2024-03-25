@@ -58,16 +58,16 @@ const Project = ({title, type, img, link, github}) => {
                 />
             </Link>
             <div className='w-full flex flex-col items-start justify-between mt-4 dark:bg-dark dark:border-light dark:text-light'>
-                <span className='text-blue-600 font-medium text-xl '>{type}</span>
+                <span className='text-blue-600 font-medium text-xl lg::text-lg md:text-base'>{type}</span>
                 <Link href={link} target='_blank' className='hover:underline underline-offset-2'>
-                    <h2 className='my-2 w-full text-left text-2xl font-bold '>{title}</h2>
+                    <h2 className='my-2 w-full text-left text-2xl font-bold lg:text-2xl'>{title}</h2>
                 </Link>
 
                 <div className='w-full mt-2 flex items-center justify-between'>
                     <Link href={link} target="_blank"
-                        className='ml-4 text-lg font-semibold underline'>
+                        className='ml-4 text-lg font-semibold underline md:text-base'>
                         Visit</Link>
-                    <Link href={github} target="_blank" className='w-8'><GithubIcon /></Link>
+                    <Link href={github} target="_blank" className='w-8 md:w-6'><GithubIcon /></Link>
                 </div>
             </div>
         </article>
@@ -101,7 +101,7 @@ Application.
                               type='Featured Projects'
                           />
                       </div>
-                      <div className='col-span-6'>
+                      <div className='col-span-6 sm:col-span-12'>
                       <Project 
                               img={project1}
                               title='V-Shop Web App'
@@ -110,7 +110,7 @@ Application.
                               type='Featured Projects'
                           />
                       </div>
-                      <div className='col-span-6'>
+                      <div className='col-span-6 sm:col-span-12'>
                       <Project 
                               img={project1}
                               title='V-Shop Web App'
@@ -120,7 +120,7 @@ Application.
                           />
                       </div>
                      
-                      <div className='col-span-6'>
+                      <div className='col-span-6 sm:col-span-12'>
                       <Project 
                               img={project1}
                               title='V-Shop Web App'
@@ -129,7 +129,7 @@ Application.
                               type='Featured Projects'
                           />
                       </div>
-                      <div className='col-span-6'>
+                      <div className='col-span-6 sm:col-span-12'>
                       <Project 
                               img={project1}
                               title='V-Shop Web App'
