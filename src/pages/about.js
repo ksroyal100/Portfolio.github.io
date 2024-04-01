@@ -66,17 +66,17 @@ every project I work on. I look forward to the opportunity to bring my skills an
                       </div>
                       <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3 md:col-span-8 md:mt-10'>
                           <div className='flex flex-col items-end justify-center xl:items-center'>
-                              <span className='inline-block text-7xl font-bold md:text-6xl sm:text-4xl'>
+                              <span className='inline-block text-7xl font-bold md:text-6xl sm:text-3xl'>
                               <AnimatedNumbers value={150} />+
                               </span>
                               <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light xl:text-center md:text-lg sm:text-base xs:text-sm'>Leetcode </h2>
                           </div>
                           <div className='flex flex-col items-end justify-center xl:items-center'>
-                              <span className='inline-block text-7xl font-bold md:text-6xl sm:text-4xl'><AnimatedNumbers value={10} />+</span>
+                              <span className='inline-block text-7xl font-bold md:text-6xl sm:text-3xl'><AnimatedNumbers value={10} />+</span>
                               <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light xl:text-center md:text-lg sm:text-base xs:text-sm'>Projects</h2>
                           </div>
                           <div className='flex flex-col items-end justify-center xl:items-center'>
-                              <span className='inline-block text-7xl font-bold md:text-6xl sm:text-4xl'><AnimatedNumbers value={2200} />+</span>
+                              <span className='inline-block text-7xl font-bold md:text-6xl sm:text-3xl'><AnimatedNumbers value={2200} />+</span>
                               <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light xl:text-center md:text-lg sm:text-base xs:text-sm'>Hours of Coding</h2>
                           </div>
                           
