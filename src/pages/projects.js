@@ -5,7 +5,15 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import { GithubIcon } from '@/components/icons'
-import project1 from '../../public/images/projects/devdreaming.jpg'
+import ecommpic from '../../public/images/projects/ecommpic.png'
+import cabbook from '../../public/images/projects/cabbook.png'
+import elearnpic from '../../public/images/projects/elearnpic.png'
+import chatapp from '../../public/images/projects/chatapppic.png'
+import traslator from '../../public/images/projects/Translator.png'
+
+
+
+
 import { motion } from 'framer-motion'
 
 const FramerImage = motion(Image);
@@ -65,7 +73,7 @@ const Project = ({title, type, img, link, github}) => {
 
                 <div className='w-full mt-2 flex items-center justify-between'>
                     <Link href={link} target="_blank"
-                        className='ml-4 text-lg font-semibold underline md:text-base'>
+                        className='ml-4 rounded-lg bg-dark/85 text-light p-2 px-6 text-lg font-semibold  hover:bg-white hover:text-black border-2 border-solid border-transparent hover:border-black dark:border-light sm:px-4 sm:text-base'>
                         Visit</Link>
                     <Link href={github} target="_blank" className='w-8 md:w-6'><GithubIcon /></Link>
                 </div>
@@ -83,62 +91,71 @@ const projects = () => {
           </Head>
           <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden'>
               <Layout className='pt-16'>
-                  <AnimatedText text='My Recent Projects' className="mb-16 text-[3rem] md:!text-4xl"
+                  <AnimatedText text='My Projects' className="mb-16 text-[3rem] md:!text-4xl"
                       
                   />
                   <div className='grid grid-cols-12 gap-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                       <div className='col-span-12'>
                           <FeaturedProject 
-                              img={project1}
+                              img={ecommpic}
                               title='V-Shop Web App'
                               summary='V-Shop is a Dynamic Ecommerce application built using
 frontend – Reactjs and Tailwind CSS, MUI.Complete Backend Support using Nodejs and Express with
 MongoDB Atlas Database, a fully Functional Web
 Application.
 '
-                              link='/'
-                              github='/'
+                              link='https://ecommerce-frontend-dusky-alpha.vercel.app/'
+                              github='https://github.com/ksroyal100/Ecommerce-Frontend'
                               type='Featured Projects'
                           />
                       </div>
-                      <div className='col-span-6 sm:col-span-12'>
-                      <Project 
-                              img={project1}
-                              title='V-Shop Web App'
-                              link='/'
-                              github='/'
+                      <div className='col-span-12'>
+                          <FeaturedProject 
+                              img={cabbook}
+                              title='Cab Booking Web App'
+                              summary='Cab booking Web App is based on Nextjs with Javascript. Our cab booking website project aims to provide users with a seamless and efficient way to book transportation services with backend Support - Spring boot.
+'
+                              link='https://cabbooking-frontend.vercel.app/'
+                              github='https://github.com/ksroyal100/CabBooking-Frontend'
                               type='Featured Projects'
                           />
                       </div>
-                      <div className='col-span-6 sm:col-span-12'>
-                      <Project 
-                              img={project1}
-                              title='V-Shop Web App'
-                              link='/'
-                              github='/'
+                      <div className='col-span-12'>
+                          <FeaturedProject 
+                              img={elearnpic}
+                              title='E-Learning Mobile App'
+                              summary='E-learning app in React Native offers a seamless mobile learning experience. It features user authentication, interactive courses, video lectures, quizzes, and progress tracking. The app responsive design ensures compatibility across devices.
+'
+                              link='https://cabbooking-frontend.vercel.app/'
+                              github='https://github.com/ksroyal100/CabBooking-Frontend'
+                              type='Featured Projects'
+                          />
+                      </div>
+                      <div className='col-span-12'>
+                          <FeaturedProject 
+                              img={chatapp}
+                              title='Chit Chat Mobile App'
+                              summary='A chat app in Android Studio using Java and Firebase provides real-time messaging with a modern and intuitive interface. Key features include user authentication, one-on-one chat, push notifications. Firebase handles backend services like real-time database, user authentication, and cloud storage, ensuring a seamless and responsive chat experience.
+'
+                              link='https://cabbooking-frontend.vercel.app/'
+                              github='https://github.com/ksroyal100/CabBooking-Frontend'
+                              type='Featured Projects'
+                          />
+                      </div>
+                      <div className='col-span-12'>
+                          <FeaturedProject 
+                              img={traslator}
+                              title='Translator App'
+                              summary='A basic translator ui built using python and tkinter along with google translator api. The best part I created this translator within 3 hours that is so fast and easy.
+'
+                              link='https://cabbooking-frontend.vercel.app/'
+                              github='https://github.com/ksroyal100/CabBooking-Frontend'
                               type='Featured Projects'
                           />
                       </div>
                      
-                      <div className='col-span-6 sm:col-span-12'>
-                      <Project 
-                              img={project1}
-                              title='V-Shop Web App'
-                              link='/'
-                              github='/'
-                              type='Featured Projects'
-                          />
-                      </div>
-                      <div className='col-span-6 sm:col-span-12'>
-                      <Project 
-                              img={project1}
-                              title='V-Shop Web App'
-                              link='/'
-                              github='/'
-                              type='Featured Projects'
-                          />
-                      </div>
-
+                
+                     
                   </div>
               </Layout>
           </main>

@@ -24,7 +24,7 @@ const Skill = () => {
           Full Stack
         </motion.div>
 
-        <Skills name="HTML" x="18vw" y="6vw" />
+        <Skills name="PYTHON" x="18vw" y="6vw" />
         <Skills name="CSS" x="-2vw" y="-10vw" />
         <Skills name="JAVASCRIPT" x="-13vw" y="20vw" />
         <Skills name="JAVA" x="-2vw" y="11vw" />
@@ -36,7 +36,7 @@ const Skill = () => {
         <Skills name="SPRING BOOT" x="25vw" y="-2vw" />
         <Skills name="MONGODB" x="20vw" y="-12vw" />
         <Skills name="SQL" x="-23vw" y="8vw" />
-        <Skills name="TAILWINDCSS" x="-2vw" y="-24vw" />
+        <Skills name="TAILWINDCSS" x="0vw" y="-21vw" />
         {/* <Skills name="DEPLOYMENT" x="0vw" y="20vw" /> */}
       
 
