@@ -8,8 +8,8 @@ import { GithubIcon } from '@/components/icons'
 import ecommpic from '../../public/images/projects/ecommpic.png'
 import cabbook from '../../public/images/projects/cabbook.png'
 import elearnpic from '../../public/images/projects/elearnpic.png'
-import chatapp from '../../public/images/projects/chatapppic.png'
 import traslator from '../../public/images/projects/Translator.png'
+import weather from '../../public/images/projects/weather.jpg'
 
 
 
@@ -133,12 +133,12 @@ Application.
                       </div>
                       <div className='col-span-12'>
                           <FeaturedProject 
-                              img={chatapp}
-                              title='Chit Chat Mobile App'
-                              summary='A chat app in Android Studio using Java and Firebase provides real-time messaging with a modern and intuitive interface. Key features include user authentication, one-on-one chat, push notifications. Firebase handles backend services like real-time database, user authentication, and cloud storage, ensuring a seamless and responsive chat experience.
+                              img={weather}
+                              title='Weather Mobile App'
+                              summary='Weather app in Android Studio using Java and Xml provides real-time weather updates with a modern and intuitive interface. Key features include temperature, humidity, wind direction, precipitation and much more.This app has strong java base support for its functionality and native support.
 '
-                              link='https://cabbooking-frontend.vercel.app/'
-                              github='https://github.com/ksroyal100/CabBooking-Frontend'
+                              link='https://github.com/ksroyal100/Weather-App'
+                              github='https://github.com/ksroyal100/Weather-App'
                               type='Featured Projects'
                           />
                       </div>
