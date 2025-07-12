@@ -9,7 +9,7 @@ import ecommpic from '../../public/images/projects/ecommpic.png'
 import cabbook from '../../public/images/projects/cabbook.png'
 import elearnpic from '../../public/images/projects/elearnpic.png'
 import traslator from '../../public/images/projects/Translator.png'
-import weather from '../../public/images/projects/weather.jpg'
+import planner from '../../public/images/projects/plannerapp.png'
 
 
 
@@ -109,7 +109,7 @@ Application.
                               type='Featured Projects'
                           />
                       </div>
-                      <div className='col-span-12'>
+                      {/* <div className='col-span-12'>
                           <FeaturedProject 
                               img={cabbook}
                               title='Cab Booking Web App'
@@ -119,26 +119,15 @@ Application.
                               github='https://github.com/ksroyal100/CabBooking-Frontend'
                               type='Featured Projects'
                           />
-                      </div>
+                      </div> */}
                       <div className='col-span-12'>
                           <FeaturedProject 
-                              img={elearnpic}
-                              title='E-Learning Mobile App'
-                              summary='E-learning app in React Native offers a seamless mobile learning experience. It features user authentication, interactive courses, video lectures, quizzes, and progress tracking. The app responsive design ensures compatibility across devices.
+                              img={planner}
+                              title='Budget Planner Mobile App'
+                              summary='Budget Planner app in React Native offers money management. It features user authentication, interactive data visualization, budget tracking. The app responsive design ensures compatibility across mobile devices.
 '
                               link='https://cabbooking-frontend.vercel.app/'
                               github='https://github.com/ksroyal100/CabBooking-Frontend'
-                              type='Featured Projects'
-                          />
-                      </div>
-                      <div className='col-span-12'>
-                          <FeaturedProject 
-                              img={weather}
-                              title='Weather Mobile App'
-                              summary='Weather app in Android Studio using Java and Xml provides real-time weather updates with a modern and intuitive interface. Key features include temperature, humidity, wind direction, precipitation and much more.This app has strong java base support for its functionality and native support.
-'
-                              link='https://github.com/ksroyal100/Weather-App'
-                              github='https://github.com/ksroyal100/Weather-App'
                               type='Featured Projects'
                           />
                       </div>
