@@ -93,115 +93,101 @@ const blogs = () => {
           <main className='w-full flex items-center justify-center overflow-hidden '>
               <Layout className='pt-16'>
                   <AnimatedText text='Words Can Change The World!' className='mb-16 text-[3rem] md:!text-4xl'/>
-                  <ul className=' grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16'>
-                      <FeaturedBlog 
-                          title='Build A Custom Pagination Component In Reactjs From Scratch'
-                          summary='Learn how to build a custom pagination component in ReactJS from scratch. 
-Follow this step-by-step guide to integrate Pagination component in your ReactJS project.'
-                          time='9 min read'
-                          link='/'
-                          img={blog1}
-                      />
-                      <FeaturedBlog 
-                          title='Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling'
-                          summary='Silky Smooth Scrolling In Reactjs: A Step-By-Step Guide For React Developers
+                  <ul className='grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16'>
+  <FeaturedBlog 
+    title='Mastering React Context API: State Management Made Easy'
+    summary='Learn how to replace prop drilling with React Context API. This guide covers context setup, useContext hook, and best practices to manage global state effectively.'
+    time='7 min read'
+    link='/'
+    img={blog1}
+  />
+  <FeaturedBlog 
+    title='Optimizing Performance in React: useMemo & useCallback Explained'
+    summary='Performance bottlenecks in React apps? Discover how useMemo and useCallback hooks help optimize re-renders and boost efficiency in large-scale apps.'
+    time='8 min read'
+    link='/'
+    img={blog2}
+  />
+  <FeaturedBlog 
+    title='Building a Reusable Modal Component in React with Portals'
+    summary='Learn step-by-step how to build a fully reusable and accessible modal component in React using React Portals and custom hooks.'
+    time='10 min read'
+    link='/'
+    img={blog2}
+  />
+  <FeaturedBlog 
+    title='React Router v6 Deep Dive: Navigation Made Simple'
+    summary='Get started with React Router v6. Understand dynamic routes, nested layouts, protected routes, and how to create seamless navigation in your projects.'
+    time='12 min read'
+    link='/'
+    img={blog2}
+  />
+</ul>
 
-Creating An Efficient Modal Component In React Using Hooks And Portals
-
-Build A Fabulous Todo List App With React, Redux And Framer-Motion'
-                          time='9 min read'
-                          link='/'
-                          img={blog2}
-                      />
-                       <FeaturedBlog 
-                          title='Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling'
-                          summary='Silky Smooth Scrolling In Reactjs: A Step-By-Step Guide For React Developers
-
-Creating An Efficient Modal Component In React Using Hooks And Portals
-
-Build A Fabulous Todo List App With React, Redux And Framer-Motion'
-                          time='9 min read'
-                          link='/'
-                          img={blog2}
-                      />
-                       <FeaturedBlog 
-                          title='Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling'
-                          summary='Silky Smooth Scrolling In Reactjs: A Step-By-Step Guide For React Developers
-
-Creating An Efficient Modal Component In React Using Hooks And Portals
-
-Build A Fabulous Todo List App With React, Redux And Framer-Motion'
-                          time='9 min read'
-                          link='/'
-                          img={blog2}
-                      />
-                   
-
-                  </ul>
                   <h2 className='font-bold text-4xl w-full text-center my-32 dark:text-light'>All Blogs</h2>
-                  <ul>
-                      <Blogs 
-                          title='What Is Higher Order Component (Hoc) In React?'
-                          date='12 mar 2024'
-                          link='/'
-                          img={blog2}
-                      />
-                      <Blogs 
-                          title='What Is Higher Order Component (Hoc) In React?'
-                          date='12 mar 2024'
-                          link='/'
-                          img={blog2}
-                      />
-                      <Blogs 
-                          title='What Is Higher Order Component (Hoc) In React?'
-                          date='12 mar 2024'
-                          link='/'
-                          img={blog2}
-                      />
-                      <Blogs 
-                          title='What Is Higher Order Component (Hoc) In React?'
-                          date='12 mar 2024'
-                          link='/'
-                          img={blog2}
-                      />
-                      <Blogs 
-                          title='What Is Higher Order Component (Hoc) In React?'
-                          date='12 mar 2024'
-                          link='/'
-                          img={blog2}
-                      />
-                      <Blogs 
-                          title='What Is Higher Order Component (Hoc) In React?'
-                          date='12 mar 2024'
-                          link='/'
-                          img={blog2}
-                      />
-                      <Blogs 
-                          title='What Is Higher Order Component (Hoc) In React?'
-                          date='12 mar 2024'
-                          link='/'
-                          img={blog2}
-                      />
-                      <Blogs 
-                          title='What Is Higher Order Component (Hoc) In React?'
-                          date='12 mar 2024'
-                          link='/'
-                          img={blog2}
-                      />
-                      <Blogs 
-                          title='What Is Higher Order Component (Hoc) In React?'
-                          date='12 mar 2024'
-                          link='/'
-                          img={blog2}
-                      />
-                      <Blogs 
-                          title='What Is Higher Order Component (Hoc) In React?'
-                          date='12 mar 2024'
-                          link='/'
-                          img={blog2}
-                      />
-                      
-                  </ul>
+                 <ul>
+  <Blogs 
+    title='Understanding Virtual DOM in React'
+    date='5 Jan 2025'
+    link='/'
+    img={blog2}
+  />
+  <Blogs 
+    title='Top 10 JavaScript ES6 Features Every Developer Must Know'
+    date='12 Jan 2025'
+    link='/'
+    img={blog2}
+  />
+  <Blogs 
+    title='React Hooks: useState, useEffect, and Beyond'
+    date='20 Jan 2025'
+    link='/'
+    img={blog2}
+  />
+  <Blogs 
+    title='Deploying a Next.js App on Vercel: Step-by-Step Guide'
+    date='2 Feb 2025'
+    link='/'
+    img={blog2}
+  />
+  <Blogs 
+    title='Node.js vs Django: Which Backend Should You Choose?'
+    date='10 Feb 2025'
+    link='/'
+    img={blog2}
+  />
+  <Blogs 
+    title='Implementing Dark Mode in React with Tailwind CSS'
+    date='18 Feb 2025'
+    link='/'
+    img={blog2}
+  />
+  <Blogs 
+    title='State Management Showdown: Redux vs Context API'
+    date='25 Feb 2025'
+    link='/'
+    img={blog2}
+  />
+  <Blogs 
+    title='Next.js Image Optimization: Best Practices'
+    date='5 Mar 2025'
+    link='/'
+    img={blog2}
+  />
+  <Blogs 
+    title='Server-Side Rendering vs Client-Side Rendering in React'
+    date='12 Mar 2025'
+    link='/'
+    img={blog2}
+  />
+  <Blogs 
+    title='Building a Todo App with React, Redux & Framer Motion'
+    date='20 Mar 2025'
+    link='/'
+    img={blog2}
+  />
+</ul>
+
               </Layout>
           </main>
     </>
