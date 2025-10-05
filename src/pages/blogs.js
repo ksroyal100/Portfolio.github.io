@@ -108,20 +108,6 @@ const blogs = () => {
     link='/'
     img={blog2}
   />
-  <FeaturedBlog 
-    title='Building a Reusable Modal Component in React with Portals'
-    summary='Learn step-by-step how to build a fully reusable and accessible modal component in React using React Portals and custom hooks.'
-    time='10 min read'
-    link='/'
-    img={blog2}
-  />
-  <FeaturedBlog 
-    title='React Router v6 Deep Dive: Navigation Made Simple'
-    summary='Get started with React Router v6. Understand dynamic routes, nested layouts, protected routes, and how to create seamless navigation in your projects.'
-    time='12 min read'
-    link='/'
-    img={blog2}
-  />
 </ul>
 
                   <h2 className='font-bold text-4xl w-full text-center my-32 dark:text-light'>All Blogs</h2>
