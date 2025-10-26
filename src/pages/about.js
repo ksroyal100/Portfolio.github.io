@@ -46,7 +46,7 @@ const about = () => {
                       <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                           <h2 className='mb-4 text-lg font-bold uppercase text-black-300'>Biography</h2>
                           <p className='font-medium'> Hi, I am Kishan Sahu, a full stack developer & designer with a passion for creating beautiful, functional, 
-and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
+and user-centered digital experiences. I am always looking for 
 new and innovative ways to bring my clients visions to life. </p>
 <p className='my-4 font-medium'> I believe that design is about more than just making things look pretty it is about solving problems and 
 creating intuitive, enjoyable experiences for users. 
