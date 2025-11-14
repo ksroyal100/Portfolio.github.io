@@ -32,7 +32,7 @@ export default function Home() {
 Explore my latest projects and articles, showcasing my expertise in Software Development.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center sm:pt-8'>
-                <Link href='/KishanSahuResume.pdf' target='_blank' className='flex items-center bg-black text-white p-2.5 px-6 mr-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-solid border-transparent hover:border-black dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light sm:!px-3'>Resume <LinkArrow className='w-6 ml-1'/></Link>
+                <Link href='/kishansahu.pdf' target='_blank' className='flex items-center bg-black text-white p-2.5 px-6 mr-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-solid border-transparent hover:border-black dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light sm:!px-3'>Resume <LinkArrow className='w-6 ml-1'/></Link>
  
                 
                 <Link href='mailto:guptakishan492@gmail.com' target='_blank' className='ml-4 text-lg font-medium capitalize text-black underline dark:text-light'>Contact</Link>
