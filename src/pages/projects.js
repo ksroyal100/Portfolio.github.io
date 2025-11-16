@@ -7,7 +7,7 @@ import Image from "next/image";
 import { GithubIcon } from "@/components/icons";
 import ecommpic from "../../public/images/projects/ecommpic.png";
 import livedocs from "../../public/images/projects/livedocs.png";
-import traslator from "../../public/images/projects/Translator.png";
+import smartbuddy from "../../public/images/projects/smartbuddy.png";
 import planner from "../../public/images/projects/plannerapp.png";
 
 import { motion } from "framer-motion";
@@ -156,6 +156,17 @@ Application.
                 type="Featured Projects"
               />
             </div>
+             <div className="col-span-12">
+              <FeaturedProject
+                img={smartbuddy}
+                title="Smart Code Reviewer"
+                summary=" a modern application code reviewer that uses Next.js on the frontend and the Gemini API for intelligent code analysis. The app reviews your code, analyzes structure and quality, and provides fine-tuned improvement suggestions — much like ChatGPT, but optimized specifically for code review workflows.
+"
+                link="https://smart-code-reviewer.vercel.app/"
+                github="https://github.com/ksroyal100/Smart_Code_Reviewer"
+                type="Featured Projects"
+              />
+            </div>
             <div className='col-span-12'>
                           <FeaturedProject 
                               img={livedocs}
@@ -167,17 +178,7 @@ Application.
                               type='Featured Projects'
                           />
                       </div>
-            <div className="col-span-12">
-              <FeaturedProject
-                img={traslator}
-                title="Translator App"
-                summary="A basic translator ui built using python and tkinter along with google translator api. The best part I created this translator within 3 hours that is so fast and easy.
-"
-                link="https://github.com/ksroyal100/PythonProjects"
-                github="https://github.com/ksroyal100/PythonProjects"
-                type="Featured Projects"
-              />
-            </div>
+           
           </div>
         </Layout>
       </main>

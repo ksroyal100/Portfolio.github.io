@@ -45,16 +45,15 @@ const about = () => {
                   <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                       <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                           <h2 className='mb-4 text-lg font-bold uppercase text-black-300'>Biography</h2>
-                          <p className='font-medium'> Hi, I am Kishan Sahu, a full stack developer & designer with a passion for creating beautiful, functional, 
-and user-centered digital experiences. I am always looking for 
-new and innovative ways to bring my clients visions to life. </p>
-<p className='my-4 font-medium'> I believe that design is about more than just making things look pretty it is about solving problems and 
-creating intuitive, enjoyable experiences for users. 
+                          <p className='font-medium'> I am an aspiring Full-Stack Developer / Backend Developer with a strong interest in building scalable server-side systems and integrating modern AI capabilities into practical applications. My primary focus areas include Python (FastAPI) / JavaScript (Node.js, Express/Nest), REST API development, database (MySQL, MongoDB), and full-stack development using React and Next.js.</p>
+<p className='my-4 font-medium'> I have hands-on experience working with:
+
+Backend engineering: authentication (JWT), caching (Redis), ORM tools, microservice patterns.
+AI integration: OpenAI, Gemini, Anthropic, Groq, LangChain, vector databases (Qdrant/Pinecone), and RAG pipelines.
+Cloud & DevOps: Docker, Docker Compose, GitHub Actions, and deployments on AWS/Render/Vercel 
 </p>
 
-<p className='font-medium'> Whether I am working on a website, mobile app, or 
-other digital product, I bring my commitment to design excellence and user-centered thinking to 
-every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.</p>
+<p className='font-medium'> My current projects include developing AI-powered Code Reviewer, production-ready backend services, with a strong emphasis on clean microservices architecture and performance optimization. I am actively preparing for software engineering interviews through data structures, algorithms, and system design fundamentals. I am seeking entry-level opportunities as a Backend Engineer, Full-Stack Engineer, or AI Engineer, where I can contribute to engineering teams, grow professionally, and work on impactful technology solutions.</p>
                       </div>
  
                       <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'>
