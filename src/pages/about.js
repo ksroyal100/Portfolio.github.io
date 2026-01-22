@@ -45,11 +45,11 @@ const about = () => {
                   <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                       <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                           <h2 className='mb-4 text-lg font-bold uppercase text-black-300'>Biography</h2>
-                          <p className='font-medium'> I am an aspiring Full-Stack Developer / Backend Developer with a strong interest in building scalable server-side systems and integrating modern AI capabilities into practical applications. My primary focus areas include Python (FastAPI) / JavaScript (Node.js, Express/Nest), REST API development, database (MySQL, MongoDB), and full-stack development using React and Next.js.</p>
+                          <p className='font-medium'> I am an aspiring Full-Stack Developer / Backend Developer with a strong interest in building scalable server-side systems and integrating modern AI capabilities into practical applications. My primary focus areas include JavaScript (Node.js, Express), Java (Spring , Spring Boot) REST API development, database (MySQL, MongoDB), and full-stack development using React and Next.js.</p>
 <p className='my-4 font-medium'> I have hands-on experience working with:
 
 Backend engineering: authentication (JWT), caching (Redis), ORM tools, microservice patterns.
-AI integration: OpenAI, Gemini, Anthropic, Groq, LangChain, vector databases (Qdrant/Pinecone), and RAG pipelines.
+AI integration: OpenAI, Gemini, Groq, Anthropic, LangChain, vector databases (Qdrant/Pinecone), and RAG pipelines.
 Cloud & DevOps: Docker, Docker Compose, GitHub Actions, and deployments on AWS/Render/Vercel 
 </p>
 
@@ -75,7 +75,7 @@ Cloud & DevOps: Docker, Docker Compose, GitHub Actions, and deployments on AWS/R
                               <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light xl:text-center md:text-lg sm:text-base xs:text-sm'>Projects</h2>
                           </div>
                           <div className='flex flex-col items-end justify-center xl:items-center'>
-                              <span className='inline-block text-7xl font-bold md:text-6xl sm:text-3xl'><AnimatedNumbers value={1800} />+</span>
+                              <span className='inline-block text-7xl font-bold md:text-6xl sm:text-3xl'><AnimatedNumbers value={1200} />+</span>
                               <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light xl:text-center md:text-lg sm:text-base xs:text-sm'>Hours of Coding</h2>
                           </div>
                           
