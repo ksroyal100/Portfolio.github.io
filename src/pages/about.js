@@ -53,7 +53,7 @@ AI integration: OpenAI, Gemini, Groq, Anthropic, LangChain, vector databases (Qd
 Cloud & DevOps: Docker, Docker Compose, GitHub Actions, and deployments on AWS/Render/Vercel 
 </p>
 
-<p className='font-medium'> My current projects include developing AI-powered Code Reviewer, production-ready backend services, with a strong emphasis on clean microservices architecture and performance optimization. I am actively preparing for software engineering interviews through data structures, algorithms, and system design fundamentals. I am seeking entry-level opportunities as a Backend Engineer, Full-Stack Engineer, or AI Engineer, where I can contribute to engineering teams, grow professionally, and work on impactful technology solutions.</p>
+<p className='font-medium'> My current projects include developing AI-powered Code Reviewer, production-ready backend services, with a strong emphasis on clean microservices architecture and performance optimization. I am actively preparing for software engineering interviews through data structures, algorithms, and system design fundamentals. I am seeking entry-level opportunities as a Backend Developer, Full-Stack Developer, or AI-Augmented Software Developer, where I can contribute to engineering teams, grow professionally, and work on impactful technology solutions.</p>
                       </div>
  
                       <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8'>

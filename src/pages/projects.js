@@ -160,7 +160,7 @@ Application.
               <FeaturedProject
                 img={smartbuddy}
                 title="Smart Code Reviewer"
-                summary=" a modern application code reviewer that uses Next.js on the frontend and the Gemini API for intelligent code analysis. The app reviews your code, analyzes structure and quality, and provides fine-tuned improvement suggestions — much like ChatGPT, but optimized specifically for code review workflows.
+                summary=" A modern application code reviewer that uses Next.js on the frontend and the Gemini API for intelligent code analysis. The app reviews your code, analyzes structure and quality, and provides fine-tuned improvement suggestions — much like ChatGPT, but optimized specifically for code review workflows.
 "
                 link="https://smart-code-reviewer.vercel.app/"
                 github="https://github.com/ksroyal100/Smart_Code_Reviewer"

@@ -26,9 +26,9 @@ export default function Home() {
               />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full'>
-              <AnimatedText text={`Turning Vision Into Reality With Codes and Logics`} className={`!text-4xl !text-left xl:!text-3xl lg:!text-center lg:!text-4xl md:!text-3xl sm:!text-3xl `} />
+              <AnimatedText text={`Turning Vision Into Reality With Real-World Digital Solutions `} className={`!text-3xl !text-left xl:!text-3xl lg:!text-center lg:!text-3xl md:!text-3xl sm:!text-3xl `} />
               <p className='my-4 text-base font-medium lg:!text-center'>
-              As a skilled full-stack developer focused on turning ideas into scalable and user-friendly applications. Take a look at my projects and posts to see how I approach problem-solving and modern software development</p>
+              Software Developer dedicated to building scalable, high-performance, and user-centric applications. I enjoy transforming complex problems into simple, efficient software solutions using modern technologies and best engineering practices. Explore my projects to see how I design, build, and optimize real-world applications.</p>
               <div className='flex items-center self-start mt-2 lg:self-center sm:pt-8'>
                 <Link href='/kishansahu.pdf' target='_blank' className='flex items-center bg-black text-white p-2.5 px-6 mr-2 rounded-lg font-semibold hover:bg-white hover:text-black border-2 border-solid border-transparent hover:border-black dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light sm:!px-3'>Resume <LinkArrow className='w-6 ml-1'/></Link>
  
